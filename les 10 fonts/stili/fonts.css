@@ -1,0 +1,54 @@
+body{
+    padding: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, Verdana;
+}
+p{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    /*color: #f34;
+    background-color: #011;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    text-decoration: underline;*/
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    text-indent: 25px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+   
+}
+
+/*part 2*/
+
+h1{
+    text-shadow: -3px 5px 2px #999;/*горизонталь. вертикаль. глубина розмитості. колір*/
+}
+p{
+    line-height: 150%;
+    text-align: justify;
+    /*text-indent: 25px;відступи параграфа перша стрічка*/
+    border: 2px solid #987;
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+}
+h2::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    padding: 4px;
+}
+ol{
+    list-style-type: square;
+    list-style-position: inside;
+    border: 2px solid #987;
+    /*list-style-image: url(../img/gkjb.jpg);*/ /*дві крапки для того щоб вийти з папки*/
+}

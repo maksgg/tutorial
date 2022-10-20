@@ -1,0 +1,39 @@
+a:hover{
+    color: brown;
+    /*при наведенні курсора силка набирає колір*/
+} 
+a:active{
+    font-size: 20px; color: red;
+    /*впливають стилі на момент кліка по ній*/
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: grey;
+}
+p:first-letter/*псевдоелемент*/{
+    font-size: 30px;
+    color: red;
+}
+/*p::first-line{}*/
+p::first-line{
+    font-weight: bold;
+}
+input:focus{
+    
+    background: yellowgreen;
+    border-color: red;
+    
+}
+.test:before/*допомагає добавити текст, який буде перед тим елементом до якого ми добавляємо його*/{
+    content:"URA!!!"
+
+}
+.test:after{
+    content: "URA!!!"
+}
+p::selection/*відповідає за контент який виділяє відвідувач сайту*/{
+    color: #fff;
+    background-color: #000;
+}

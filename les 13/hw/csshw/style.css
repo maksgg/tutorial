@@ -1,0 +1,73 @@
+body{
+    padding: 20px;
+    background-color: rgb(255, 254, 223);
+}
+.test{
+    width: 100%;
+    background-color: rgb(252, 232, 169);
+    text-align: center;
+    border: 1px solid #000;
+}
+.test2{
+    width: 65%;
+    color: rgb(248, 255, 255);
+    background-color: #000;
+    min-height: 300px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.test3{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.test4{
+    width: 31%;
+    color: rgb(122, 122, 184);
+    background-color: rgb(41, 0, 80);
+    min-height: 300px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.test5{
+    width: 31%;
+    min-height: 300px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.test6{
+    width: 31%;
+    min-height: 300px;
+    padding: 10px;
+    padding-left: 10px;
+    float: left;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+h3{
+    text-align: center;
+}
+.qw{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    float: left;
+    margin-top: 10px;
+}

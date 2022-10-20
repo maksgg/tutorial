@@ -1,0 +1,17 @@
+img[title]{
+    width: 300px;
+}
+img[title="second"]{
+    width: 250px;
+}
+img[title="third"]{
+    height: 200px;
+}
+a[href="https://youtube.com"]{
+    color: aqua;
+    background-color: black;
+}
+a[href="https://www.instagram.com"]{
+    color: brown;
+    font-size: 25px;
+}

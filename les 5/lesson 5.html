@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Web forms</title>
+</head>
+<body>
+    <form action="/" method=""><!--обов'язкові два атрибути-->
+        <input type="text" name="namePerson" value="Max"><!--обов'язкові два атрибути--> <!--maxlength="" обмежує кількість символів-->
+        <!--value=""-->
+        <input type="text" name="firstName" placeholder="Kiril"><br><!--placeholder="" кращий атрибут за value-->
+        <input type="password" name="pass" maxlength="32" disabled><br>
+        <label for="ap">Яблуко</label> <input id="ap" type="checkbox" name="12" value="apple">
+        <label for="pl">Слива</label><input id="pl" type="checkbox" name="12" value="plum">
+        <label for="mel">Лимон</label><input id="mel" type="checkbox" name="12" value="melon">
+        <label for="jc">Сік</label><input id="jc" type="checkbox" name="12" value="juice"><br>
+
+        Яблуко<input type="radio" name="11">
+        Слива<input type="radio" name="11">
+        Лимон<input type="radio" name="11"><br>
+        <textarea name="text" cols="15" rows="3" placeholder="Text something"></textarea><br>
+        <select name="test2" size="3" multiple><!--Обов'язковий атрибут name-->
+            <option>txt</option>
+            <option selected>HTML</option>
+            <option value="JavaScript">JS</option>
+            <option>PHP</option>
+
+        </select><br>
+        <input type="reset" name="">
+        <input type="submit" name="submit" value="Відправити">
+        <button type="submit">Інша кнопка</button>
+
+    </form>
+    
+</body>
+</html>

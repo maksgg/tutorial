@@ -1,0 +1,18 @@
+body{
+    padding: 20px;
+
+}
+.test{
+    border: 1px dashed #000;
+}
+p.test2{
+    border: 1px solid #390;
+}
+p.test strong{
+    border: 1px solid #390;
+    margin-top: 10px;
+    display: inline-block;
+}
+li{
+display: inline;   /*   робить блочний елемент строковим    */
+}

@@ -1,0 +1,15 @@
+img[title="Picture"]{
+    width: 300px;
+}
+img[title="Images"]{
+    width: 300px;
+}
+img[title]{
+    width: 400px;
+}
+a[href="https://youtube.com"]{
+    color: black;
+}
+a[href="https://google.com"]{
+    color: red;
+}

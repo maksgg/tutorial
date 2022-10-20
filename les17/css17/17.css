@@ -1,0 +1,30 @@
+body{
+    padding: 60px;
+}
+p.test1{
+    width: 500px;
+    border: 1px solid #003;
+    padding: 3px;
+}
+a{
+    padding: 5px;
+    background-color: red;
+}
+a.button{
+    /*font: .9em Arial, Helwetica, sans-serif;
+    border-radius: .5em;*/
+    background-color:  rgb(255, 123, 0);
+    font-size: 15px;
+    transition-property: background-color, font-size;
+    transition-duration: 1s, 2s;
+    transition-delay: 300ms;
+   /* border: 1px solid rgba(0, 0, 0, .5);
+    padding: 5.em;
+    display: inline-table;*/
+}
+a.button:hover{
+    /*transform: rotate(90deg);
+    transform-origin: 2 34;*/
+    background-color: rgb(103, 255, 230);
+    font-size: 19px;
+}

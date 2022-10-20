@@ -1,0 +1,32 @@
+.q{
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+.qq{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    
+}
+.rr{
+    background-color: rgb(250, 248, 240);
+}
+.w{
+    background-color: aliceblue;
+    font-size: 14px;
+    font-style: italic;
+}
+.ww{
+    background-color: bisque;
+    font-size: 14px;
+}
+.e{
+    color: rgb(185, 240, 240);
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    
+}

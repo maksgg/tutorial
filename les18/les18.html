@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="18css/css18.css">
+    <title>Lesson 18</title>
+</head>
+    <body>
+        <article>
+            <h1>Form HTML</h1>
+            <form method="post" action="/" class="subform">
+                <p>
+                    <label for="name">What is your name</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="name">Your e-mail</label>
+                    <input type="email" name="name" id="name">
+                </p>
+                <p>Experience of study:
+                    <label>
+                        <input type="radio" name="skill" value="1">
+                        JavaScript
+                    </label>
+                    <label>
+                        <input type="radio" name="skill" value="2">
+                        HTML & CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="skill" value="3">
+                        PHP
+                    </label>
+                    <p>
+                        <label for="goal">What is your goal</label>
+                        <select name="goal" id="goal">
+                            <option>Want to change job</option>
+                            <option>Up slill</option>
+                            <option>Like hobby</option>
+                            <option>Want to be freelancer</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comments">Your wishes</label>
+                        <textarea name="comments" id="comments" cols="40" rows="5">
+                        </textarea>
+                    </p>
+                    <input type="submit" value="Send">
+
+                </p>
+            </form>
+        </article>
+    </body>
+</html>
